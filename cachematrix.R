@@ -2,7 +2,7 @@
 ## if the contents of a matrix are not changing, it makes sense to cache the value of the inverse 
 ## so than when it´s needed again, it can be looked up in the cache rather than recomputed.
 
-## "makeCacheMatrix" function creates a special "matrix", which is really a list containing a function to
+## "makeCacheMatrix" function creates a special "matrix", which is really a list containing a function that
 ##
 ## 1.  set the value of the matrix
 ## 2.  get the value of the matrix
